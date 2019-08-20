@@ -1,0 +1,59 @@
+int posYship;  
+float posXmete;  
+PImage img;  
+PImage bg;  
+
+int estado = 1; 
+
+
+void setup() {
+
+  size(800, 500);
+  img = loadImage("ship.png");
+  bg = loadImage("background.gif");
+}
+
+void draw() {  
+  image(bg, 0, 0, 800, 500);
+  fill(#C97900);
+  ellipse(posXmete, 350, 100, 100);
+  image(img, 700, posYship, 100, 100);
+
+  if (estado == 1) {
+
+    //moviendo la nave
+    posYship = posYship+5;
+    if (keyPressed) {
+      posYship=posYship-10;
+    }
+
+    //movimiento del meteoro    
+    posXmete= posXmete +5;
+    if (posXmete>800) {  
+      posXmete = 0;
+    }
+
+    //Fin del Juego
+    if (posYship>500) {
+      estado = 0;
+    }
+
+    //Colisión del meteoro con la nave
+    if (dist(posXmete, 350, 700, posYship)<60) {
+      estado = 0;
+    }
+  } else {
+    textSize(40);
+    fill(#FFFFFF);
+    text("Fin Del Juego", 300, 250);
+  }
+
+ //reiniciar
+  if (mousePressed) {
+
+    estado=1;
+    posYship = 0;
+    posXmete = 0;
+
+  }
+}
