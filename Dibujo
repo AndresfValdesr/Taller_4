@@ -1,0 +1,1093 @@
+  
+int ancho = 16;
+int alto = 16;
+
+void setup()
+{
+  size(512,512);
+}
+
+void draw ()
+{
+  background (#79dafc);
+  /*
+    fill(#cba8fe);
+    //noStroke();
+    rect(0,0,ancho,alto);
+    rect(16,0,ancho,alto);
+    rect(32,0,ancho,alto);
+    rect(48,0,ancho,alto);
+    rect(64,0,ancho,alto);
+    rect(80,0,ancho,alto);
+    rect(96,0,ancho,alto);
+    rect(112,0,ancho,alto);
+    rect(128,0,ancho,alto);
+    rect(144,0,ancho,alto);
+    rect(160,0,ancho,alto);
+    rect(176,0,ancho,alto);
+    rect(192,0,ancho,alto);
+    rect(208,0,ancho,alto);
+    rect(224,0,ancho,alto);
+    rect(240,0,ancho,alto);
+    rect(256,0,ancho,alto);
+    rect(272,0,ancho,alto);
+    rect(288,0,ancho,alto);
+    rect(304,0,ancho,alto);
+    rect(320,0,ancho,alto);
+    rect(336,0,ancho,alto);
+    rect(352,0,ancho,alto);
+    rect(368,0,ancho,alto);
+    rect(384,0,ancho,alto);
+    rect(400,0,ancho,alto);
+    rect(416,0,ancho,alto);
+    rect(432,0,ancho,alto);
+    rect(448,0,ancho,alto);
+    rect(464,0,ancho,alto);
+    rect(480,0,ancho,alto);
+    rect(496,0,ancho,alto);
+    */
+  
+  //Nube 1
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#cbf8fe);
+  rect(400-i,0,ancho,alto);
+  }
+  
+    for(int i=0; i<70; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(368-i,0,ancho,alto);
+  }
+  
+      for(int i=0; i<70; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(368-i,16,ancho,alto);
+  }
+  
+        for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(352-i,32,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#cbf8fe);
+  rect(400-i,16,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#cbf8fe);
+  rect(384-i,32,ancho,alto);
+  }
+
+  
+//Nube 2
+
+
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(80-i,32,ancho,alto);
+  }
+   
+    for(int i=0; i<70; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(96-i,48,ancho,alto);
+  }
+  
+    for(int i=0; i<70; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(96-i,64,ancho,alto);
+  }
+  
+     for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(80-i,80,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#cbf8fe);
+  rect(112-i,32,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#cbf8fe);
+  rect(128-i,48,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#cbf8fe);
+  rect(128-i,64,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#cbf8fe);
+  rect(112-i,80,ancho,alto);
+  }
+
+
+// I'ts a me, Mario.
+
+
+    for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#cc191c);
+  rect(192+i,80,ancho,alto);
+  }
+  
+    for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#cc191c);
+  rect(192+i,96,ancho,alto);
+  }
+  
+    for(int i=0; i<140; i=i+16) 
+  {
+  //noStroke();
+  fill(#cc191c);
+  rect(288-i,112,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#fec192);
+  rect(192,128+i,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#000000);
+  rect(208,128+i,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#fec192);
+  rect(224,128+i,ancho,alto);
+  }
+  
+     for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#000000);
+  rect(240,128+i,ancho,alto);
+  }
+  
+     for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffc196);
+  rect(256,128+i,ancho,alto);
+  }
+  
+     for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#552d0a);
+  rect(272,128+i,ancho,alto);
+  }
+  
+     for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#552d0a);
+  rect(272+i,128,ancho,alto);
+  }
+  
+     for(int i=0; i<50; i=i+16) 
+  {
+  //noStroke();
+  fill(#552d0a);
+  rect(304,128+i,ancho,alto);
+  }
+  
+    for(int i=0; i<50; i=i+16) 
+  {
+  //noStroke();
+  fill(#552d0a);
+  rect(288,176,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#efa671);
+  rect(288,144+i,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#efa671);
+  rect(288-i,160,ancho,alto);
+  }
+  
+      for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#efa671);
+  rect(272,192-i,ancho,alto);
+  }
+  
+     for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#efa671);
+  rect(272+i,192,ancho,alto);
+  }
+  
+     for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffc192);
+  rect(256-i,160,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ea7e74);
+  rect(224,160+i,ancho,alto);
+  }
+  
+    for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#f89e84);
+  rect(208-i,160,ancho,alto);
+  }
+  
+     for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#f89e84);
+  rect(208-i,176,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#83410f);
+  rect(240+i,176,ancho,alto);
+  }
+
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffc192);
+  rect(256,192,ancho,alto);
+  }
+  
+     for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#83410f);
+  rect(240-i,192,ancho,alto);
+  }
+  
+     for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#83410f);
+  rect(160,176,ancho,alto);
+  }
+  
+     for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#008fc7);
+  rect(192,208,ancho,alto);
+  }
+  
+       for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#cc191c);
+  rect(208+i,208,ancho,alto);
+  }
+  
+     for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#008fc7);
+  rect(256,208,ancho,alto);
+  }
+  
+     for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#970204);
+  rect(272+i,208,ancho,alto);
+  }
+  
+     for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#970204);
+  rect(288+i,224,ancho,alto);
+  }
+  
+    for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#efa673);
+  rect(288+i,240,ancho,alto);
+  }
+  
+    for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#0d5dbe);
+  rect(272,224+i,ancho,alto);
+  }
+  
+      for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0d5dbe);
+  rect(272+i,256,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#5b2b05);
+  rect(288-i,272,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#9e4f11);
+  rect(240,272,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#9e4f11);
+  rect(176,272,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#5b2b05);
+  rect(192+i,272,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#990204);
+  rect(240+i,112,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#990204);
+  rect(272,112-i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#990204);
+  rect(288,112-i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffd200);
+  rect(256,224,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#008fc6);
+  rect(240-i,224,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#008fc6);
+  rect(256-i,240,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0562b8);
+  rect(224-i,256,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#008fc6);
+  rect(192,256,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#008fc6);
+  rect(256,256,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffd200);
+  rect(192,224,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#cc1a1c);
+  rect(176,224,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#efa670);
+  rect(176,240,ancho,alto);
+  }
+  
+  
+//Montañas
+
+  
+for(int i=0; i<90; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(96+i,496,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(112+i,480,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(128+i,464,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(144+i,448,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(176,448+i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(192,464+i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(208,480+i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(224,496,ancho,alto);
+  }
+  
+  for(int i=0; i<280; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(240+i,496,ancho,alto);
+  }
+  
+  for(int i=0; i<260; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(256+i,480,ancho,alto);
+  }
+  
+  for(int i=0; i<240; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(272+i,464,ancho,alto);
+  }
+  
+  for(int i=0; i<200; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(288+i,448,ancho,alto);
+  }
+  
+  for(int i=0; i<200; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(288+i,432,ancho,alto);
+  }
+  
+  for(int i=0; i<200; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(272+i,416,ancho,alto);
+  }
+  
+  for(int i=0; i<200; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(272+i,400,ancho,alto);
+  }
+  
+  for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(352+i,384,ancho,alto);
+  }
+  
+  for(int i=0; i<90; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(368+i,368,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(384+i,352,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(400+i,336,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(448,336+i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(464,352+i,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(480,368+i,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(496,400+i,ancho,alto);
+  }
+  
+//Bloque
+  
+   
+  for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#ec9444);
+  rect(240-i,288,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#c46a19);
+  rect(256+i,288,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(256+i,304,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(256+i,320,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(320,304+i,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(272+i,352,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(272+i,368,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(288+i,400,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(288+i,416,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(256,400+i,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#000000);
+  rect(256+i,432,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#000000);
+  rect(272,432-i,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#000000);
+  rect(272+i,384,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#000000);
+  rect(256,384-i,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#000000);
+  rect(256+i,336,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#000000);
+  rect(304,336-i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(240-i,304,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(240-i,320,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(240-i,352,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(240-i,368,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(240-i,400,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(240-i,416,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(192-i,416,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(192-i,400,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(144,368-i,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(144+i,320,ancho,alto);
+  }
+  
+  for(int i=0; i<60; i=i+16) 
+  {
+  //noStroke();
+  fill(#984800);
+  rect(144+i,304,ancho,alto);
+  }
+  
+  for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(144+i,336,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(208,336-i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(160,336+i,ancho,alto);
+  }
+  
+  for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(144+i,384,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(208,384+i,ancho,alto);
+  }
+  
+  for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#582b09);
+  rect(144+i,432,ancho,alto);
+  }
+  
+  
+  //Flor 
+ 
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(368+i,432,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(368+i,464,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(352,448,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffa37b);
+  rect(368,448,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#ce368a);
+  rect(384+i,448,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffa37b);
+  rect(432,448,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(448,448,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#77e18d);
+  rect(400,480+i,ancho,alto);
+  }
+  
+  
+  //Tubo
+  
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#5fc085);
+  rect(64,496-i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#5fc085);
+  rect(80,464-i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#77e18d);
+  rect(64,464-i,ancho,alto);
+  }
+  
+  for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#77e18d);
+  rect(48,432+i,ancho,alto);
+  }
+  
+  for(int i=0; i<100; i=i+16) 
+  {
+  //noStroke();
+  fill(#77e18d);
+  rect(32,432+i,ancho,alto);
+  }
+  
+  for(int i=0; i<80; i=i+16) 
+  {
+  //noStroke();
+  fill(#77e18d);
+  rect(16,496-i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#77e18d);
+  rect(0,464-i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#b5f4a2);
+  rect(16,464-i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#b5f4a2);
+  rect(32,496-i,ancho,alto);
+  }
+
+
+//Planta
+
+
+for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b9e97);
+  rect(32,416-i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(16-i,416-i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#0b7a8f);
+  rect(48+i,416-i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ce368a);
+  rect(32-i,368,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ce368a);
+  rect(16-i,352,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#ce368a);
+  rect(0,336,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(0+i,320+i,ancho,alto);
+  }
+  
+  for(int i=0; i<40; i=i+16) 
+  {
+  //noStroke();
+  fill(#ffffff);
+  rect(32+i,352-i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  //noStroke();
+  fill(#9e217d);
+  rect(48,368-i,ancho,alto);
+  }
+  
+  for(int i=0; i<20; i=i+16) 
+  {
+  noStroke();
+  fill(#9e217d);
+  rect(64,352-i,ancho,alto);
+  }
+}
